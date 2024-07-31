@@ -1,0 +1,88 @@
+/* src/App.css */
+
+/* Basic styling for the app container */
+  .App {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Styling for the review form */
+  form {
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 1000px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Input fields and select dropdown styling */
+  input, select, textarea {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  /* Button styling */
+  button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for review list items */
+  .review-item {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    margin: 10px auto;
+    max-width: 500px;
+    text-align: left;
+  }
+  
+  .review-item p {
+    margin: 0;
+  }
+
+  /* src/App.css */
+.review {
+  border: 2px solid #DCDCDC;
+  padding: 15px;
+  margin: 10px 0;
+  border-radius: 5px;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.username {
+  font-weight: bold;
+  text-align: left;
+}
+
+.rating {
+  color: #ffa500; /* Orange color for stars */
+}
+
+.reviewText {
+  margin-top: 10px;
+}
+
+.star {
+  font-size: 20px;
+  color: #ccc; /* Default color for stars */
+}
+
+.star.filled {
+  color: #ffa500; /* Color for filled stars */
+}
+
+  

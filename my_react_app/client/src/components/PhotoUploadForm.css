@@ -1,0 +1,31 @@
+/* src/components/PhotoUploadForm.css */
+.photo-upload-form {
+    margin-bottom: 20px;
+}
+
+.photo-upload-form div {
+    margin-bottom: 10px;
+}
+
+.photo-upload-form label {
+    margin-right: 10px;
+}
+
+.photo-upload-form input {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.photo-upload-form button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    cursor: pointer;
+}
+
+.photo-upload-form button:hover {
+    background-color: #0056b3;
+}

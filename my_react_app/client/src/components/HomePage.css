@@ -1,0 +1,28 @@
+/* src/components/HomePage.css */
+.homepage {
+    text-align: center;
+}
+
+.photo-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.photo {
+    max-width: 200px;
+    margin: 10px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.photo:hover {
+    transform: scale(1.1);
+}
+
+.review-link {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    color: blue;
+}
